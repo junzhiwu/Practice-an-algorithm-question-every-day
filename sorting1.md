@@ -13,7 +13,7 @@ insertion sort适用于元素数量少的数列，以及基本排好序的数组
 部分排序（前k个最大/小元素）可以用heapsort提高时间复杂度到O(nlogk)    
 如果元素的值的范围很小，采用counting sort (用array或者二叉树存储）    
 
-Java Libraries   **
+**Java Libraries**
 > **Arrays.sort(array)** is used to sort the array      
 costs O(nlogn) time and O(n) time to sort a randomly ordered input array     
 operates on arrays of objects that implement the Comparable interface    
