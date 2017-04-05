@@ -10,8 +10,8 @@ It supports location, insertion, deletion, iteration and search operation.
 * O(n) time to add and remove at any arbitrary location (begin, middle).
     We shift all elements over one spot to create/remove a hole at the indicated index,
     if the index is out of boundary, throw new IndexOutOfBoundsException() (Java)
-* O(n) time to search in unsorted array and O(logn)to search in sorted array
-* O(n) time to  iterate an array
+* O(n) time to search in unsorted array and O(logn) time to search in sorted array
+* O(n) time to iterate an array
 
 ### Resizing: handle the insertion an item to a full array
 - allocate a new array with additional memory and copy over the entries from the original array
