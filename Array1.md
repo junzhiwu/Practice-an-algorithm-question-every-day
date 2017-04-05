@@ -9,7 +9,7 @@ It supports location, insertion, deletion, iteration and search operation.
 * O(1) time to add or remove at the end
 * O(n) time to add and remove at any arbitrary location (begin, middle).
     We shift all elements over one spot to create/remove a hole at the indicated index,
-    if the index is out of boundary, throw new IndexOutOfBoundsException("out of bounds with index: " +i)
+    if the index is out of boundary, throw new IndexOutOfBoundsException() (Java)
 * O(n) time to search in unsorted array and O(logn)to search in sorted array
 * O(n) time to  iterate an array
 
